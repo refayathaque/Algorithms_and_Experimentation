@@ -9,3 +9,5 @@ This repo is to store code I will commit/push regularly to maintain my basic pro
 I will repeat a **selection of algorithms at least every other day to ensure that the fundamentals I picked up in .js and .py remain strong, and also that I don't forget .js and .py syntax**.
 
 Furthermore, this repo will store all **experimentation with different facets of .js (namely ES6) and .py that I am unfamiliar with, this in addition to experimentation with other languages, frameworks and DevOps technologies**.
+
+~~The reason for this new repo is because I just (Oct 21, 2017) got the new MacBook Pro 15!~~
