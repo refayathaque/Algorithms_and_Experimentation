@@ -10,4 +10,6 @@ I will repeat a **selection of algorithms at least every other day to ensure tha
 
 Furthermore, this repo will store all **experimentation with different facets of .js (namely ES6) and .py that I am unfamiliar with, this in addition to experimentation with other languages, frameworks and DevOps technologies**.
 
-~~The reason for this new repo is because I just (Oct 21, 2017) got the new MacBook Pro 15!~~
+This repo came into being because I just ~~(Oct 21, 2017)~~ got the ~~new MacBook Pro 15~~!
+
+[Markdown Syntax](https://github.com/refayathaque/Algorithms_and_Experimentation)
