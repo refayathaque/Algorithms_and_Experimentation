@@ -22,3 +22,5 @@ const reverseArray2 = (arr) => {
 }
 console.log(reverseArray2(q));
 console.log('__________10/23/17__________');
+
+///////////////////////////////////////////
