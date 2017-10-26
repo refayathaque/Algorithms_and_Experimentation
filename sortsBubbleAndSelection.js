@@ -67,3 +67,5 @@ const selectionSortAsc = (arr) => {
 }
 console.log(selectionSortAsc(q));
 console.log('__________10/26/17__________');
+
+///////////////////////////////////////////
