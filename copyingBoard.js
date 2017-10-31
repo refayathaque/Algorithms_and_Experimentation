@@ -75,5 +75,3 @@ function selectionSort(arr) {
 }
 s = [-5, 3, -98, 4, 2, 7, 4]
 console.log(selectionSort(s));
-
-// branch
