@@ -58,3 +58,28 @@ print selectionSortDesc(q)
 print '__________10/26/17__________'
 
 ####################################
+
+w = [11, 33, 77, 44, 66, 99, 22, 88]
+
+def bubbleSortAsc(list):
+    if len(list) == 0:
+        return 'List is empty'
+    if len(list) == 1:
+        return list
+    sorted_flag = False
+    while (sorted_flag == False):
+        sorted_count = 0
+        for i in range (0, len(list) - 1):
+            if list[i] > list[i + 1]:
+                temp = list[i]
+                list[i] = list[i + 1]
+                list[i + 1] = temp
+            else:
+                sorted_count += 1
+        if sorted_count == len(list) - 1:
+            sorted_flag = True
+    return list
+print bubbleSortAsc(w)
+print '__________10/31/17__________'
+
+####################################
