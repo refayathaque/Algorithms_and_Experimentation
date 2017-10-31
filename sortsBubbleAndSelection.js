@@ -69,3 +69,34 @@ console.log(selectionSortAsc(q));
 console.log('__________10/26/17__________');
 
 ///////////////////////////////////////////
+
+w = [11, 33, 77, 44, 66, 99, 22, 88]
+
+const bubbleSortDesc = (arr) => {
+    if (arr.length === 0) {
+        return 'Array is empty';
+    }
+    if (arr.length === 1) {
+        return arr;
+    }
+    let sorted_flag = false;
+    while (sorted_flag === false) {
+        let sorted_count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < arr[i + 1]) {
+                temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
+            }
+            else {
+                sorted_count++;
+            }
+        }
+        if (sorted_count === arr.length) {
+            sorted_flag = true;
+        }
+    }
+    return arr;
+}
+console.log(bubbleSortDesc(w));
+console.log('__________10/31/17__________');
