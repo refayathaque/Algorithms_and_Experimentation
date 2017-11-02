@@ -1,0 +1,12 @@
+apig-test \
+--username='admin@example.com' \
+--password='Passw0rd!' \
+--user-pool-id='us-east-1_xrTDT0Qcg' \
+--app-client-id='6b2comi0sa7g1766phr6ea9bsl' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:4dfa6b69-d0e5-4e1c-a067-f2ad4b3da410' \
+--invoke-url='https://52fo9i0ni4.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hell world","attachment":"hell.jpg"}'
