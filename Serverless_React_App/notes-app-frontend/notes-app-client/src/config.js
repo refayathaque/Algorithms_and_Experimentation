@@ -4,3 +4,5 @@ export default {
     APP_CLIENT_ID: "6b2comi0sa7g1766phr6ea9bsl"
   }
 };
+
+MAX_ATTACHMENT_SIZE: 5000000
