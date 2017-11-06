@@ -74,3 +74,29 @@ print reverseArray6(e)
 print '__________10/31/17__________'
 
 ####################################
+
+r = ['3am', 'at', 'up', 'wake', 'I', 'did', 'Why']
+
+def reverseArray7(list):
+    left = 0
+    right = len(list) - 1
+    while left < right:
+        temp = list[left]
+        list[left] = list[right]
+        list[right] = temp
+        left += 1
+        right -= 1
+    return list
+print reverseArray7(r)
+print '__________11/06/17__________'
+
+def reverseArray8(list):
+    for i in range (0, len(list) / 2):
+        temp = list[i]
+        list[i] = list[(len(list) - 1) - i]
+        list[(len(list) - 1) - i] = temp
+    return list
+print reverseArray8(r)
+print '__________11/06/17__________'
+
+####################################

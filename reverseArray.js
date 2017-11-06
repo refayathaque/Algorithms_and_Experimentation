@@ -80,3 +80,31 @@ console.log(reverseArray6(e));
 console.log('__________10/31/17__________');
 
 ///////////////////////////////////////////
+
+let r = ['Refayat', 'is', 'name', 'My']
+
+const reverseArray7 = (arr) => {
+    let temp = 0;
+    for (left = 0, right = arr.length - 1; left < right; left++, right--) {
+        temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
+    return arr;
+}
+console.log(reverseArray7(r));
+console.log('__________11/06/17__________');
+
+const reverseArray8 = (arr) => {
+    let temp = 0;
+    for (i = 0; i < arr.length / 2; i++) {
+        temp = arr[i];
+        arr[i] = arr[(arr.length - 1) - i];
+        arr[(arr.length - 1) - i] = temp;
+    }
+    return arr;
+}
+console.log(reverseArray8(r));
+console.log('__________11/06/17__________');
+
+///////////////////////////////////////////
