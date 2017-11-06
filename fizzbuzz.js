@@ -102,3 +102,24 @@ fizzBuzz5()
 console.log('__________10/31/17__________');
 
 ///////////////////////////////////////////
+
+const fizzBuzz6 = () => {
+    for (i = 100; i > 0; i--) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log('FizzBuzz');
+        }
+        else if (i % 3 === 0) {
+            console.log('Fizz');
+        }
+        else if (i % 5 === 0) {
+            console.log('Buzz');
+        }
+        else {
+            console.log(i);
+        }
+    }
+}
+fizzBuzz6()
+console.log('__________11/06/17__________');
+
+///////////////////////////////////////////
